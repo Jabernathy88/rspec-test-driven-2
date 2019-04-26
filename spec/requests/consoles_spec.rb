@@ -7,7 +7,7 @@ RSpec.describe 'Consoles request' do
     it 'returns an array of videogame consoles' do
       get '/consoles'
       expect(response_json['consoles']).to contain_exactly(
-        'NESS',
+        'NES',
         'SNES',
         'Genesis',
         'Xbox',

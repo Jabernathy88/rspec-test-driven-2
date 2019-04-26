@@ -23,6 +23,7 @@
 /config/master.key
 
 # Misc
+/spec/examples.txt
 .DS_Store
 .env.local
 .env.development.local

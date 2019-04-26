@@ -63,4 +63,5 @@ RSpec.configure do |config|
 
   # Misc
   config.include(RequestHelpers)
+
 end
