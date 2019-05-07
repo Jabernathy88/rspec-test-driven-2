@@ -8,6 +8,7 @@ class ConsolesController < ApplicationController
       { name: 'PS4', manufacturer: 'Sony' },
       { name: 'Switch', manufacturer: 'Nintendo' }
     ]
+
     if params[:manufacturer].present?
       consoles = consoles.select do |console| 
         console[:manufacturer] == params[:manufacturer] 
